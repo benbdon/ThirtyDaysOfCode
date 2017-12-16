@@ -12,6 +12,7 @@ int main() {
 	int taxPercent;
 	int totalCost;
 
+	// get input from the user meal cost, tip%, and tax%
 	cin >> mealCost;
     cin >> tipPercent;
     cin >> taxPercent;
