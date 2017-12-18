@@ -10,15 +10,14 @@ int main() {
 	double mealCost;
 	int tipPercent;
 	int taxPercent;
-	int totalCost;
 
 	// get input from the user meal cost, tip%, and tax%
 	cin >> mealCost;
     cin >> tipPercent;
     cin >> taxPercent;
 
-    totalCost = round(mealCost * (1 + (tipPercent+taxPercent)/100.0));
+    int totalCost = round(mealCost * (1 + (tipPercent+taxPercent)/100.0));
     
     cout << "The total meal cost is " + std::to_string(totalCost) + " dollars.";
-    return totalCost;
+    return 0;
 }
